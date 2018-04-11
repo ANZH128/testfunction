@@ -1,0 +1,63 @@
+﻿<Window x:Class="FileEdit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileEdit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1000" Width="960">
+    <Grid>
+
+        <Button Content="Log Out" Canvas.Left="1657" Canvas.Top="98" FontSize="8" Margin="736,36,58,869"/>
+        <Button Content="Export" Canvas.Left="1547" Canvas.Top="915" HorizontalAlignment="Left" VerticalAlignment="Top" Width="96" Click="Button_Click" FontSize="8" Height="29" Margin="828,899,0,0"/>
+        <Image Source="Images/pic1.png" Canvas.Left="760" Canvas.Top="203" Margin="366,164,406,747"/>
+        <Image Source="Images/justice-logo.png" Height="100" Canvas.Left="963" Canvas.Top="568" Margin="0,0,494,869"/>
+        <Label Content="PreView" HorizontalAlignment="Left" Margin="366,125,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <TreeView HorizontalAlignment="Left" Height="803" Margin="0,125,0,0" VerticalAlignment="Top" Width="320"/>
+        <Label Content="In Person:" HorizontalAlignment="Left" Margin="776,232,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <Label Content="Ground Floor, 277 William Street" HorizontalAlignment="Left" Margin="776,240,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <Label Content="Melbourne Victoria 3000" HorizontalAlignment="Left" Margin="776,249,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <Label Content="In Writing:" HorizontalAlignment="Left" Margin="776,272,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <Label Content="GPO Box 14487" HorizontalAlignment="Left" Margin="776,281,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <Label Content="Melbourne Victoria 8001" HorizontalAlignment="Left" Margin="776,290,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <Label Content="Telephone: +61 3 9200 8222" HorizontalAlignment="Left" Margin="776,313,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <Label Content="fines.vic.gov.au" HorizontalAlignment="Left" Margin="776,322,0,0" VerticalAlignment="Top" Width="148" FontSize="8" Foreground="#FF2AA0C3"/>
+        <TextBox x:Name="textAddress" HorizontalAlignment="Left" Height="23" Margin="409,293,0,0" TextWrapping="Wrap" Text="[DEBTOR/COMPANY/3RD PARTY ADDRESS LINE 1]" VerticalAlignment="Top" Width="362" Foreground="Red"/>
+        <TextBox x:Name="textPostcode" HorizontalAlignment="Left" Height="23" Margin="409,315,0,0" TextWrapping="Wrap" Text="[CITY STATE POSTCODE]" VerticalAlignment="Top" Width="362" Foreground="Red"/>
+        <TextBox x:Name="textName" HorizontalAlignment="Left" Height="23" Margin="409,272,0,0" TextWrapping="Wrap" Text="[DEBTOR/COMPANY/3RD PARTY NAME]" VerticalAlignment="Top" Width="362" Foreground="Red"/>
+        <Label Content="Obligation Number:" HorizontalAlignment="Left" Margin="640,356,0,0" VerticalAlignment="Top" Width="131" FontWeight="Bold"/>
+        <TextBox x:Name="textOBNo" HorizontalAlignment="Left" Height="23" Margin="781,356,0,0" TextWrapping="Wrap" Text="[OB NUMBER]" VerticalAlignment="Top" Width="148" Foreground="Red" TextChanged="TextBox_TextChanged_1"/>
+        <DatePicker x:Name="DP1" IsTodayHighlighted="True" HorizontalAlignment="Left" Margin="371,355,0,0" VerticalAlignment="Top" FirstDayOfWeek="Sunday"/>
+        <Label Content="Dear Sir/Madam," HorizontalAlignment="Left" Margin="366,389,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Please be advised that no payment has been received by Fines Victoria matching the details" HorizontalAlignment="Left" Margin="366,415,-2,0" VerticalAlignment="Top" Width="588"/>
+        <Label Content="you have supplied for the above Obligation Number." HorizontalAlignment="Left" Margin="366,426,0,0" VerticalAlignment="Top" Width="327"/>
+        <Label Content="To enable us to identify your payment, please provide the following documentation relevant" HorizontalAlignment="Left" Margin="366,451,0,0" VerticalAlignment="Top" Width="546"/>
+        <Label Content="to your payment method:" HorizontalAlignment="Left" Margin="366,464,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label Content="Australia Post or Fines Victoria counter: " HorizontalAlignment="Left" Margin="364,483,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="provide a copy of the receipt" HorizontalAlignment="Left" Margin="606,482,0,0" VerticalAlignment="Top"/>
+        <Label Content="contact your bank and/or check your credit card statement to see if the payment" HorizontalAlignment="Left" Margin="435,506,0,0" VerticalAlignment="Top"/>
+        <Label Content="has been deducted from your account. If a deduction has been made, please forward the" HorizontalAlignment="Left" Margin="364,521,0,0" VerticalAlignment="Top"/>
+        <Label Content="below details to enable us to investigate further:" HorizontalAlignment="Left" Margin="364,535,0,0" VerticalAlignment="Top"/>
+        <Label Content="Date of the Transaction" HorizontalAlignment="Left" Margin="411,550,0,0" VerticalAlignment="Top"/>
+        <Label Content="Payment Reference Number" HorizontalAlignment="Left" Margin="411,564,0,0" VerticalAlignment="Top"/>
+        <Label Content="...&#xA;" HorizontalAlignment="Left" Margin="412,573,0,0" VerticalAlignment="Top" Height="30" Width="83"/>
+        <Label Content="Please return the relevant payment information by" HorizontalAlignment="Left" Margin="364,626,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content=" to avoid further costs being" HorizontalAlignment="Left" Margin="738,626,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Credit card: " HorizontalAlignment="Left" Margin="364,507,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <DatePicker x:Name="DP2" HorizontalAlignment="Left" Margin="662,627,0,0" VerticalAlignment="Top"/>
+        <Label Content="incurred." HorizontalAlignment="Left" Margin="364,640,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="to avoid further costs being" HorizontalAlignment="Left" Margin="742,661,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Please return the relevant payment information by" HorizontalAlignment="Left" Margin="364,663,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <DatePicker x:Name="DP3" HorizontalAlignment="Left" Margin="663,663,0,0" VerticalAlignment="Top"/>
+        <Label Content="incurred and enforcement action being taken against you." HorizontalAlignment="Left" Margin="364,679,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Please note, your fine is overdue for payment and enforcement action may commence" HorizontalAlignment="Left" Margin="364,715,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="against you until the matter is finalised." HorizontalAlignment="Left" Margin="364,730,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="Cheque or Money Order:" HorizontalAlignment="Left" Margin="364,603,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="...&#xA;" HorizontalAlignment="Left" Margin="528,603,0,0" VerticalAlignment="Top" Height="30" Width="83"/>
+        <Label Content="...&#xA;" HorizontalAlignment="Left" Margin="364,745,0,0" VerticalAlignment="Top" Height="30" Width="83"/>
+        <Image Source="c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\Images\pic2.png" HorizontalAlignment="Left" Height="60" Margin="809,818,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\Images\pic3.png" HorizontalAlignment="Left" Height="86" Margin="342,818,0,0" VerticalAlignment="Top" Width="403"/>
+
+
+    </Grid>
+</Window>

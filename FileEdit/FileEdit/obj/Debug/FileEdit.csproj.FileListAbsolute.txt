@@ -1,0 +1,17 @@
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\bin\Debug\FileEdit.exe.config
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\bin\Debug\FileEdit.exe
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\bin\Debug\FileEdit.pdb
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\bin\Debug\Xceed.Words.NET.dll
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.csprojResolveAssemblyReference.cache
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\MainWindow.g.cs
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\App.g.cs
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit_MarkupCompile.cache
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit_MarkupCompile.lref
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\MainWindow.baml
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.g.resources
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.Properties.Resources.resources
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.csproj.GenerateResource.cache
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.csproj.CoreCompileInputs.cache
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.csproj.CopyComplete
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.exe
+c:\users\antoine-desktop\source\repos\FileEdit\FileEdit\obj\Debug\FileEdit.pdb
